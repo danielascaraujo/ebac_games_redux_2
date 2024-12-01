@@ -6,7 +6,7 @@ import { renderizaComProvider } from '../../../utils/tests'
 describe('Testes para o componente header', () => {
   test('Deve renderizar corretamente', () => {
     renderizaComProvider(<Header />)
-    expect(screen.getByText('EBAC Games')).toBeInTheDocument()
+    expect(screen.getByText('EBAC Games')).toBeInTheDocument
   })
 
   test('Deve renderizar com 2 itens no carrinho', () => {
